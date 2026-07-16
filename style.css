@@ -137,4 +137,18 @@ button:hover{
     
     }
 
+    .hero p{
+
+    text-align:center;
+
+    line-height:1.6;
+
+    }
+
+    button{
+
+    padding:18px 35px;
+
+    }
+
 }
