@@ -1,0 +1,111 @@
+body{
+
+    background-color:#1a1a2e;
+
+    color:white;
+
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+
+.hero{
+
+    display:flex;
+
+    flex-direction:column;
+
+    align-items:center;
+
+    margin-top:80px;
+
+    gap:20px;
+
+}
+
+.estrelas{
+
+    display:flex;
+
+    flex-direction:column;
+
+    align-items:center;
+
+    margin-top:120px;
+
+}
+
+.bots{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:40px;
+
+}
+
+.card{
+
+    background-color:#2a2a45;
+
+    width:300px;
+
+    padding:25px;
+
+    border-radius:20px;
+
+    transition:0.3s;
+
+}
+
+.felipe:hover{
+
+    transform:translateY(-10px);
+
+    background-color:#6495ED;
+
+}
+
+.felipa:hover{
+
+    transform:translateY(-10px);
+
+    background-color:#C71585;
+
+}
+
+.sophia:hover{
+
+    transform:translateY(-10px);
+
+    background-color:#BDB76B;
+
+}
+
+button{
+
+    background-color:#5865F2;
+
+    color:white;
+
+    border:none;
+
+    padding:15px 30px;
+
+    border-radius:10px;
+
+    font-size:18px;
+
+    transition:0.3s;
+
+    cursor:pointer;
+
+}
+
+button:hover{
+
+    background-color:#707BFF;
+
+    transform:scale(1.05);
+
+}
