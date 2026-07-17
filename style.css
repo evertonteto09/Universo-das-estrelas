@@ -50,7 +50,9 @@ body{
 
     background-color:#2a2a45;
 
-    width:300px;
+    max-width:300px;
+
+    width:100%;
 
     padding:25px;
 
