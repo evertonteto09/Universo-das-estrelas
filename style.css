@@ -62,6 +62,27 @@ body{
 
 }
 
+.card img{
+
+    width:120px;
+    height:120px;
+
+    object-fit:cover;
+
+    border-radius:50%;
+
+    box-shadow:0 8px 20px rgba(0,0,0,.35);
+
+    transition:.3s;
+    
+}
+
+.card img:hover{
+
+    transform:scale(1.08);
+
+}
+
 .felipe:hover{
 
     transform:translateY(-10px);
