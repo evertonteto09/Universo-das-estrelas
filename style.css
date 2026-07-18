@@ -155,3 +155,24 @@ button:hover{
     }
 
 }
+
+.historia {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px 25px;
+}
+
+.historia article{
+    margin-bottom: 70px;
+    border-left: 4px solid #6b5cff;
+    padding-left: 20px;
+}
+
+.historia p{
+    line-height: 1.8;
+    margin: 20px 0;
+}
+
+.historia h3{
+    margin-bottom: 30px;
+}
