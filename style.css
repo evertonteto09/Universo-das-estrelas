@@ -259,6 +259,50 @@ button:hover{
 
 }
 
+footer{
+
+    margin-top:120px;
+
+    padding:50px 25px;
+
+    background-color:#151525;
+
+    line-height:1.8;
+
+}
+
+footer a{
+
+    color:white;
+
+    text-decoration:none;
+
+    transition:0.3s;
+
+}
+
+footer a:hover{
+
+    color:#707BFF;
+
+}
+
+.footer-links a,
+.footer-utilitarios a{
+
+    margin-right:15px;
+
+}
+
+.footer-direitos{
+
+    margin-top:30px;
+
+    opacity:.6;
+
+    font-size:14px;
+
+}
 
 @media (max-width: 768px){
 
