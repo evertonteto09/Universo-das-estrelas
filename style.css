@@ -416,6 +416,11 @@ footer a:hover{
 
     }
 
+    .hero img{
+        width:90px;
+        height:90px;
+    }
+
     button{
 
     padding:18px 35px;
