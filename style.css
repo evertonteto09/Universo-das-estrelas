@@ -1,3 +1,19 @@
+@keyframes flutuar{
+
+    0%{
+        transform:translateY(0);
+    }
+
+    50%{
+        transform:translateY(-10px);
+    }
+
+    100%{
+        transform:translateY(0);
+    }
+
+}
+
 body{
 
     background: linear-gradient(to right, #4B0082, #5865F2, #8A2BE2);
@@ -21,6 +37,35 @@ body{
     gap:20px;
 
     text-shadow: 0 0 15px #BA55D3;
+
+}
+
+.hero h1{
+
+    animation:flutuar 3s infinite;
+
+}
+
+.hero button{
+
+    background-color:#DA70D6;
+
+}
+
+.hero img{
+
+    width:120px;
+    height:120px;
+
+    transition:.3s;
+    
+}
+
+.hero img:hover{
+
+    transform: translateY(-8px) rotate(-1deg);
+
+    box-shadow:0 8px 20px rgba(0,0,0,.35);
 
 }
 
@@ -89,7 +134,7 @@ body{
 
 .felipe:hover{
 
-    transform:translateY(-10px);
+    transform: translateY(-10px) scale(1.03);
 
     background-color:#6495ED;
 
@@ -97,7 +142,7 @@ body{
 
 .felipa:hover{
 
-    transform:translateY(-10px);
+    transform: translateY(-10px) scale(1.03);
 
     background-color:#C71585;
 
@@ -105,7 +150,7 @@ body{
 
 .sophia:hover{
 
-    transform:translateY(-10px);
+    transform: translateY(-10px) scale(1.03);
 
     background-color:#BDB76B;
 
