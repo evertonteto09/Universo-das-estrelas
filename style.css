@@ -14,6 +14,54 @@
 
 }
 
+header{
+
+    position:fixed;
+
+    top:0;
+
+    left:0;
+
+    width:100%;
+
+    background:#1a1a2e;
+
+    padding:20px 40px;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    z-index:1000;
+
+}
+
+header a{
+
+    color:white;
+
+    text-decoration:none;
+
+    transition:0.3s;
+
+}
+
+header a:hover{
+
+    color:#707BFF;
+
+}
+
+nav{
+
+    display:flex;
+
+    gap:30px;
+
+}
+
 body{
 
     background: linear-gradient(to right, #4B0082, #5865F2, #8A2BE2);
@@ -371,6 +419,12 @@ footer a:hover{
     opacity:.6;
 
     font-size:14px;
+
+}
+
+html{
+
+    scroll-behavior:smooth;
 
 }
 
