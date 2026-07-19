@@ -331,9 +331,9 @@ footer a:hover{
 
 @media (max-width: 768px){
 
-    .body{
+    body{
 
-        background: linear-gradient(#FFFF00, #FF8C00);
+        background: linear-gradient(#5865F2, #8A2BE2);
     
     }
 
