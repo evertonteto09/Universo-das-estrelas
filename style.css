@@ -331,6 +331,17 @@ footer a:hover{
 
 @media (max-width: 768px){
 
+    .body{
+
+        background: linear-gradient(#5865F2, #8A2BE2);
+    
+    }
+
+    .hero{
+
+        text-shadow: 0 0 15px #BA55D3;
+    }
+
     .bots{
 
         flex-direction:column;
