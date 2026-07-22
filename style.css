@@ -14,6 +14,112 @@
 
 }
 
+html{
+
+    scroll-behavior:smooth;
+
+}
+
+section{
+
+    scroll-margin-top:90px;
+
+}
+
+/*====================================
+        TEMA PADRÃO
+====================================*/
+
+.menu-toggle{
+
+    width:40px;
+
+    height:40px;
+
+    border:none;
+
+    background:transparent;
+
+    padding:0;
+
+    font-size:15px;
+
+    transition:0.3s;
+
+}
+
+.menu-toggle img{
+
+    width:40px;
+    height:40px;
+
+    border:none;
+
+    background:transparent;
+
+    transition:.3s;
+
+}
+
+.menu-lateral{
+
+    background: linear-gradient(to right, #191970, #7B68EE);
+
+    position: fixed;
+
+    display: flex;
+
+    flex-direction: column;
+
+    top:20px;
+
+    left:-350px;
+
+    width:300px;
+
+    height:85vh;
+
+    padding:25px;
+
+    border-radius:15px;
+
+    box-shadow: 0 10px 25px rgba(0,0,0,.25);
+
+    transition:0.8s;
+
+}
+
+.conteudo-menu{
+
+    flex-grow: 1;
+
+    min-height: 0;
+
+    overflow-y: auto;
+
+    padding-right: 8px;
+
+}
+
+.menu-lateral.aberto {
+
+    left:20px;
+
+}
+
+.opcoes-tema button{
+
+    background:transparent;
+
+}
+
+.opcoes-tema :hover{
+
+    background:#DA70D6;
+
+}
+
+
 header{
 
     position:fixed;
@@ -26,7 +132,7 @@ header{
 
     background:#1a1a2e;
 
-    padding:20px 40px;
+    padding:12px 40px;
 
     display:flex;
 
@@ -155,6 +261,8 @@ body{
 
     box-shadow: 0 10px 25px rgba(0,0,0,.25);
 
+    opacity:0;
+
     transition:0.3s;
 
 }
@@ -267,9 +375,13 @@ button:hover{
 }
 
 .historia {
+
     max-width: 900px;
     margin: 0 auto;
     padding: 40px 25px;
+    opacity:0;
+    transition:0.3s;
+
 }
 
 .novidades{
@@ -303,6 +415,8 @@ button:hover{
 
     box-shadow: 0 10px 25px rgba(0,0,0,.25);
 
+    opacity:0;
+
     transition:0.3s;
 
 }
@@ -323,7 +437,7 @@ button:hover{
 
 }
 
-.cards{
+.carta{
 
     display:flex;
 
@@ -332,6 +446,10 @@ button:hover{
     flex-wrap:wrap;
 
     gap:40px;
+
+    opacity:0;
+
+    transition:0.3s;
 
 }
 
@@ -422,17 +540,266 @@ footer a:hover{
 
 }
 
-html{
+.mostrar{
 
-    scroll-behavior:smooth;
+    opacity:1;
+
+}
+
+/*====================================
+        TEMA CLARO
+====================================*/
+
+body.claro .menu-lateral{
+
+    background: linear-gradient(to right, #ADD8E6, #4682B4);
 
 }
 
-section{
+body.claro .opcoes-tema button{
 
-    scroll-margin-top:90px;
+    color:#222;
 
 }
+
+body.claro .opcoes-tema :hover{
+
+    background:#00FFFF;
+
+}
+
+body.claro header{
+
+    background:white;
+
+}
+
+body.claro header a{
+
+    color:black;
+
+}
+
+body.claro{
+
+    background:linear-gradient(to right, #BFE8FF,#EAF8FF);
+
+    color:#222;
+
+}
+
+body.claro .card{
+
+    background:#F5F5F5;
+
+}
+
+body.claro header a:hover{
+
+    color:#707BFF;
+
+}
+
+body.claro .hero{
+
+    text-shadow:0 0 8px #7CB9FF;
+
+}
+
+body.claro .hero button{
+
+    background-color:#6A5ACD;
+
+}
+
+body.claro .felipe:hover{
+
+    transform: translateY(-10px) scale(1.03);
+
+    background-color:#6495ED;
+
+}
+
+body.claro .felipa:hover{
+
+    transform: translateY(-10px) scale(1.03);
+
+    background-color:#C71585;
+
+}
+
+body.claro .sophia:hover{
+
+    transform: translateY(-10px) scale(1.03);
+
+    background-color:#BDB76B;
+
+}
+
+body.claro .texto {
+
+    border-left: 4px solid #8FBC8B;
+
+}
+
+body.claro .noticia{
+
+    background:#F5F5F5;
+
+}
+
+body.claro .convite{
+
+    background-color:#F5F5F5;
+
+}
+
+body.claro footer{
+
+    background-color:#F5F5F5;
+
+}
+
+body.claro footer a{
+
+    color:#222;
+
+}
+
+body.claro footer a:hover{
+
+    color:#707BFF;
+
+}
+
+/*====================================
+        TEMA escuro
+====================================*/
+
+body.escuro .menu-lateral{
+
+    background: linear-gradient(to right, #708090, #191970);
+
+}
+
+body.escuro .opcoes-tema :hover{
+
+    background:#FFFAFA;
+
+    color:#222;
+
+}
+
+body.escuro header{
+
+    background:#0A0D18;
+
+    box-shadow:0 2px 10px rgba(0,0,0,.15);
+
+}
+
+body.escuro header a{
+
+    color:white;
+
+}
+
+body.escuro{
+
+    background:linear-gradient(#090A15, #10172A, #1A1B3A);
+
+    color:white;
+
+}
+
+body.escuro .card{
+
+    background:#1F233A;
+
+}
+
+body.escuro header a:hover{
+
+    color:#707BFF;
+
+}
+
+body.escuro .hero{
+
+    text-shadow:0 0 10px #5E8BFF;
+
+}
+
+body.escuro .hero button{
+
+    background-color:#6A5ACD;
+
+}
+
+body.escuro .felipe:hover{
+
+    transform: translateY(-10px) scale(1.03);
+
+    background-color:#6495ED;
+
+}
+
+body.escuro .felipa:hover{
+
+    transform: translateY(-10px) scale(1.03);
+
+    background-color:#C71585;
+
+}
+
+body.escuro .sophia:hover{
+
+    transform: translateY(-10px) scale(1.03);
+
+    background-color:#BDB76B;
+
+}
+
+body.escuro .texto {
+
+    border-left: 4px solid #7B68EE;
+
+}
+
+body.escuro .noticia{
+
+    background:#1F233A;
+
+}
+
+body.escuro .convite{
+
+    background-color:#1F233A;
+
+}
+
+body.escuro footer{
+
+    background-color:#1F233A;
+
+}
+
+body.escuro footer a{
+
+    color:white;
+
+}
+
+body.escuro footer a:hover{
+
+    color:#707BFF;
+
+}
+
+
+/*====================================
+        RESPONSIVIDADE
+====================================*/
 
 @media (max-width: 768px){
 
