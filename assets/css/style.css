@@ -809,7 +809,7 @@ body.escuro footer a:hover{
 
     position: fixed;
 
-    top:-100px;
+    top:-60px;
 
     left:-500px;
 
@@ -829,7 +829,7 @@ body.escuro footer a:hover{
 
     .menu-lateral.aberto {
 
-        left:-28px;
+        left:-24px;
 
     }
 
