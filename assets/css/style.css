@@ -805,7 +805,7 @@ body.escuro footer a:hover{
 
     .menu-lateral{
 
-    background: linear-gradient(to right, #191970, #7B68EE);
+    background:#483D8B;
 
     position: fixed;
 
@@ -830,6 +830,18 @@ body.escuro footer a:hover{
     .menu-lateral.aberto {
 
         left:-20px;
+
+    }
+
+    body.claro .menu-lateral{
+
+    background:#DCDCDC;
+
+    }
+
+    body.escuro .menu-lateral{
+
+    background:#708090;
 
     }
 
