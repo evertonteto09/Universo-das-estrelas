@@ -811,7 +811,7 @@ body.escuro footer a:hover{
 
     top:20px;
 
-    left:-350px;
+    left:-500px;
 
     width: min(90vw, 380px);
 
@@ -826,6 +826,12 @@ body.escuro footer a:hover{
     transition:0.8s;
 
 }
+
+    .menu-lateral.aberto {
+
+        left:10px;
+
+    }
 
     body{
 
