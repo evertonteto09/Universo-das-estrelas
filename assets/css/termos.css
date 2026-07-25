@@ -1,0 +1,82 @@
+body{
+
+    background: linear-gradient(to right, #4B0082, #5865F2, #8A2BE2);
+
+    color:white;
+
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+
+.voltar{
+
+    color:white;
+
+    text-decoration:none;
+
+    transition:0.3s;
+
+}
+
+.voltar:hover{
+
+    color:darksalmon;
+
+    text-decoration:underline;
+
+}
+
+.botao-concordo{
+
+    display:flex;
+
+    justify-content:center;
+
+    background:#FFFFFF;
+
+    color:#222;
+
+    text-decoration:none;
+
+    margin-bottom:10px;
+
+    padding:15px 30px;
+
+    transition:.3s;
+
+}
+
+.botao-concordo:hover{
+
+    background:#4682B4;
+
+}
+
+body.claro{
+
+    background:linear-gradient(to right, #BFE8FF,#EAF8FF);
+
+    color:#222;
+
+}
+
+body.claro .voltar{
+
+    color:black;
+}
+
+body.claro .voltar:hover{
+
+    color:darksalmon;
+
+    text-decoration:underline;
+
+}
+
+body.escuro{
+
+    background:linear-gradient(#090A15, #10172A, #1A1B3A);
+
+    color:white;
+
+}
