@@ -6,6 +6,10 @@ const nav = document.querySelector("nav");
 
 const header = document.querySelector("header");
 
+const voltar = document.querySelector(".voltar-menu");
+
+const destino = document.querySelector(".nav-menu");
+
 function atualizarMenu(){
 
     if(window.innerWidth <= 768){
@@ -24,8 +28,16 @@ window.addEventListener("resize", atualizarMenu);
 
 atualizarMenu();
 
+destino.appendChild(nav);
+
 botaoMenu.addEventListener("click", function(){
 
     menu.classList.toggle("aberto");
+
+});
+
+voltar.addEventListener("click", ()=>{
+
+    menu.classList.remove("aberto");
 
 });
