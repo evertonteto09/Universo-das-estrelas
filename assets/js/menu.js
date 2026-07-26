@@ -16,6 +16,8 @@ function atualizarMenu(){
 
         menu.prepend(nav);
 
+        destino.appendChild(nav);
+
     }else{
 
         header.insertBefore(nav, menu);
@@ -27,8 +29,6 @@ function atualizarMenu(){
 window.addEventListener("resize", atualizarMenu);
 
 atualizarMenu();
-
-destino.appendChild(nav);
 
 botaoMenu.addEventListener("click", function(){
 
