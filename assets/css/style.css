@@ -30,7 +30,7 @@ section{
         TEMA PADRÃO
 ====================================*/
 
-.nav-menu{
+.nav-title{
 
     display:none;
 
@@ -827,7 +827,7 @@ body.escuro footer a:hover{
 
     }
 
-    .nav-menu{
+    .nav-title{
 
     display:flex;
 
