@@ -829,7 +829,19 @@ body.escuro footer a:hover{
 
     .nav-title{
 
+        display:flex;
+        
+    }
+
+    .nav-menu{
+
     display:flex;
+
+    flex-direction:column;
+
+    gap:12px;
+
+    width:100%;
 
     }
 
@@ -838,6 +850,12 @@ body.escuro footer a:hover{
         display:none;
 
         opacity:0;
+
+    }
+
+    .opcoes-tema button{
+
+        width:100%;
 
     }
 
@@ -877,6 +895,11 @@ body.escuro footer a:hover{
 
         left:-20px;
 
+    }
+
+    body.claro .voltar-menu{
+
+        color:#222;
     }
 
     body.claro .menu-lateral{
