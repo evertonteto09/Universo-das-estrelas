@@ -86,3 +86,12 @@ body.escuro{
     color:white;
 
 }
+
+@media (max-width: 768px){
+
+    body{
+
+        background: linear-gradient(#5865F2, #8A2BE2);
+    
+    }
+}
