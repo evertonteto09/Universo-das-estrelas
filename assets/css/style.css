@@ -30,6 +30,18 @@ section{
         TEMA PADRÃO
 ====================================*/
 
+.nav-menu{
+
+    display:none;
+
+}
+
+.voltar-menu{
+
+    display:none;
+
+}
+
 .menu-toggle{
 
     width:40px;
@@ -802,6 +814,28 @@ body.escuro footer a:hover{
 ====================================*/
 
 @media (max-width: 768px){
+
+    .voltar-menu{
+
+        background:transparent;
+
+        display:flex;
+
+    }
+
+    .nav-menu{
+
+    display:grid;
+
+    }
+
+    .title-menu{
+
+        display:none;
+
+        opacity:0;
+
+    }
 
     .menu-lateral{
 
