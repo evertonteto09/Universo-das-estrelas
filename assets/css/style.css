@@ -821,11 +821,15 @@ body.escuro footer a:hover{
 
         display:flex;
 
+        align-items:center;
+
+        gap:10px;
+
     }
 
     .nav-menu{
 
-    display:grid;
+    display:flex;
 
     }
 
@@ -838,6 +842,14 @@ body.escuro footer a:hover{
     }
 
     .menu-lateral{
+
+    display:flex;
+
+    flex-direction:column;
+
+    align-items:flex-start;
+
+    gap:15px;
 
     background:#483D8B;
 
