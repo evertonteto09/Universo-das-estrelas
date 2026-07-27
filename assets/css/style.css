@@ -36,13 +36,13 @@ section{
 
 }
 
-.voltar-menu{
+.cabecalho-menu button{
 
     display:none;
 
 }
 
-.hr-menu{
+.cabecalho-menu h2{
 
     display:none;
 
@@ -827,7 +827,7 @@ body.escuro footer a:hover{
 
 @media (max-width: 768px){
 
-    .voltar-menu{
+    .cabecalho-menu button{
 
         display:flex;
 
@@ -847,9 +847,15 @@ body.escuro footer a:hover{
 
     }
 
+    .cabecalho-menu h2{
+
+        display:flex;
+
+    }
+
     .voltar-menu:hover{
 
-        background:#DA70D6;
+        background:#ffffff15;
 
     }
 
@@ -901,12 +907,6 @@ body.escuro footer a:hover{
 
         opacity:0;
 
-    }
-
-    .hr-menu{
-
-    display:flex;
-    
     }
 
     .opcoes-tema button{
