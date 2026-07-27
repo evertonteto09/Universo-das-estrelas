@@ -10,6 +10,18 @@ const voltar = document.querySelector(".voltar-menu");
 
 const destino = document.querySelector(".nav-menu");
 
+const linksMenu = document.querySelectorAll(".menu-item");
+
+linksMenu.forEach(link => {
+
+    link.addEventListener("click", () => {
+
+        menu.classList.remove("aberto");
+
+    });
+
+});
+
 function atualizarMenu(){
 
     if(window.innerWidth <= 768){
