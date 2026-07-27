@@ -817,13 +817,15 @@ body.escuro footer a:hover{
 
     .voltar-menu{
 
-        background:transparent;
-
         display:flex;
 
-        align-items:center;
+        justify-content:center;
 
-        gap:10px;
+        background:#663399;
+
+        width:100%;
+
+        border-radius:0;
 
     }
 
@@ -855,7 +857,11 @@ body.escuro footer a:hover{
 
     .opcoes-tema button{
 
+        background:#663399;
+
         width:100%;
+
+        border-radius:0;
 
     }
 
@@ -881,7 +887,7 @@ body.escuro footer a:hover{
 
     max-width: 380px;
 
-    height:95vh;
+    height:100vh;
 
     padding:25px;
 
