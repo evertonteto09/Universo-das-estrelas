@@ -48,6 +48,12 @@ section{
 
 }
 
+.menu-icon{
+
+    display:none;
+
+}
+
 .menu-toggle{
 
     width:40px;
@@ -857,11 +863,25 @@ body.escuro footer a:hover{
 
     display:flex;
 
+    align-items:center;
+
     flex-direction:column;
+
+    width:100%;
+
+    padding:16px 20px;
 
     gap:12px;
 
-    width:100%;
+    text-align:left;
+
+    transition:0.3s;
+
+    }
+
+    .menu-lateral nav a:hover{
+
+        transform:scale(1.05);
 
     }
 
@@ -881,9 +901,31 @@ body.escuro footer a:hover{
 
     .opcoes-tema button{
 
+        display:flex;
+
+        align-items:center;
+
+        justify-content:flex-start;
+
         width:100%;
 
+        padding:16px 20px;
+
+        gap:12px;
+
+        text-align:left;
+
         border-radius:0;
+
+    }
+
+    .menu-icon{
+
+        display:inline-block;
+
+        width:30px;
+
+        text-align:center;
 
     }
 
