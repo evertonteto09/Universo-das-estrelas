@@ -877,11 +877,11 @@ body.escuro footer a:hover{
 
     left:-500px;
 
-    width: min(90vw, 380px);
+    width:min(90vw, 380px);
 
     max-width: 380px;
 
-    height: 100vh;
+    height:95vh;
 
     padding:25px;
 
