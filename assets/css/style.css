@@ -42,6 +42,12 @@ section{
 
 }
 
+.hr-menu{
+
+    display:none;
+
+}
+
 .menu-toggle{
 
     width:40px;
@@ -867,11 +873,53 @@ body.escuro footer a:hover{
 
     }
 
+    .hr-menu{
+
+    display:flex;
+    
+    }
+
     .opcoes-tema button{
 
         width:100%;
 
         border-radius:0;
+
+    }
+
+    .menu-item{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:12px;
+
+    width:100%;
+
+    padding:16px 20px;
+
+    border:none;
+
+    background:transparent;
+
+    color:white;
+
+    text-decoration:none;
+
+    font-size:1rem;
+
+    cursor:pointer;
+
+    transition:.2s;
+
+    }
+
+    .menu-item:hover{
+
+    background:#DA70D6;
+
+    color:white;
 
     }
 
