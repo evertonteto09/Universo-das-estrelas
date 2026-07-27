@@ -929,6 +929,18 @@ body.escuro footer a:hover{
 
     }
 
+    .opcoes-tema button:hover{
+
+        background:#ffffff15;
+
+    }
+
+    .termos-privacidade a:hover{
+
+        transform:scale(1.05);
+
+    }
+
     .menu-icon{
 
         display:inline-block;
@@ -971,7 +983,7 @@ body.escuro footer a:hover{
 
     .menu-item:hover{
 
-    background:#DA70D6;
+    background:#ffffff15;
 
     color:white;
 
