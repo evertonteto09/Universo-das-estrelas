@@ -178,7 +178,7 @@ header a:hover{
 
 }
 
-nav{
+header nav{
 
     display:flex;
 
@@ -853,7 +853,7 @@ body.escuro footer a:hover{
         
     }
 
-    .nav-menu{
+    .menu-lateral nav{
 
     display:flex;
 
