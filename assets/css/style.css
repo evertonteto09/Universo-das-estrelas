@@ -879,6 +879,16 @@ body.escuro footer a:hover{
 
     }
 
+    .menu-lateral nav a{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:12px;
+
+    }
+
     .menu-lateral nav a:hover{
 
         transform:scale(1.05);
@@ -923,9 +933,11 @@ body.escuro footer a:hover{
 
         display:inline-block;
 
-        width:30px;
+        width:28px;
 
         text-align:center;
+
+        flex-shrink:0;
 
     }
 
@@ -973,7 +985,7 @@ body.escuro footer a:hover{
 
     gap:15px;
 
-    background:#663399;
+    background:linear-gradient(180deg, #232347, #312f74, #4f46c7);
 
     position: fixed;
 
