@@ -1032,13 +1032,27 @@ body.escuro footer a:hover{
 
     body.claro .menu-lateral{
 
-    background:#F9FAFB;
+        background: linear-gradient(180deg, #FFFFFF, #F7F9FC, #EEF2FF);
+
+    }
+
+    body.claro .opcoes-tema button:hover{
+
+        background:#ffffff15;
 
     }
 
     body.escuro .menu-lateral{
 
-    background:#1C1917;
+    background: linear-gradient(180deg, #1C1917, #23202A, #2B2450);
+
+    }
+
+    body.escuro .opcoes-tema button:hover{
+
+        background:#ffffff15;
+
+        color:white;
 
     }
 
