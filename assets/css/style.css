@@ -829,11 +829,13 @@ body.escuro footer a:hover{
 
     header{
 
+        padding:6px 16px;
+
+        height:30px;
+
+        min-height:unset;
+
         justify-content:flex-start;
-
-        padding:12px 18px;
-
-        min-height:56px;
 
     }
 
@@ -851,7 +853,6 @@ body.escuro footer a:hover{
         border-radius:10px;
 
     }
-
 
     .cabecalho-menu button{
 
