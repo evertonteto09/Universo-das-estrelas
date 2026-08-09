@@ -941,9 +941,15 @@ body.escuro .usados:hover{
 
     }
 
+    .usados{
+
+        max-width:305px;
+
+    }
+
     .imagens{
 
-        width:280px;
+        width:305px;
     
     }
 
