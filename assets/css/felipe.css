@@ -924,4 +924,27 @@ body.escuro .usados:hover{
         padding:15px 10px;
 
     }
+
+    .cmd{
+
+        flex-direction:column;
+
+        align-items:center;
+
+    }
+
+    .carta{
+
+        width:100%;
+
+        max-width:320px;
+
+    }
+
+    .imagens{
+
+        width:440px;
+    
+    }
+
 }
