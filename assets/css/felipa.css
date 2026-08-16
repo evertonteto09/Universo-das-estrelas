@@ -945,8 +945,11 @@ body.escuro .usados:hover{
 
     .imagens{
 
-        width:360px;
-         height:230px;
+        width:100%;
+        
+        max-width:360px;
+        
+        height:auto;
     
     }
 
