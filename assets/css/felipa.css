@@ -137,6 +137,8 @@ button:hover{
 
     overflow-y: auto;
 
+    overflow-x: hidden;
+    
     padding-right: 8px;
 
 }
