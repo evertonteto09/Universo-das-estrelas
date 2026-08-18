@@ -622,6 +622,24 @@ body.claro .usados:hover{
 
 }
 
+body.claro footer{
+
+    background-color:#F5F5F5;
+
+}
+
+body.claro footer a{
+
+    color:#222;
+
+}
+
+body.claro footer a:hover{
+
+    color:#707BFF;
+
+}
+
 /*====================================
         TEMA escuro
 ====================================*/
@@ -707,6 +725,24 @@ body.escuro .usados{
 body.escuro .usados:hover{
     
     background: linear-gradient(to right, #000080, #6495ED);
+
+}
+
+body.escuro footer{
+
+    background-color:#1F233A;
+
+}
+
+body.escuro footer a{
+
+    color:white;
+
+}
+
+body.escuro footer a:hover{
+
+    color:#707BFF;
 
 }
 
