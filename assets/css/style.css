@@ -587,6 +587,18 @@ footer a:hover{
 
 }
 
+.foticon{
+
+    position:relative;
+
+    width:32px;
+    
+    height:32px;
+
+    top:10px;
+
+}
+
 .mostrar{
 
     opacity:1;
