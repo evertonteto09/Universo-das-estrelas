@@ -845,7 +845,7 @@ button:hover{
     display: inline-block;
     width: fit-content;
 
-    background-color: #5865F2;
+    background-color: #DA70D6;
     color: white;
 
     padding: 15px 40px;
@@ -1123,6 +1123,12 @@ body.claro .bots-unavailable {
         0 8px 24px rgba(50, 65, 120, 0.06);
 }
 
+body.claro .st{
+    
+    background-color: #5865F2;
+    
+}
+
 body.claro footer{
 
     background-color:#F5F5F5;
@@ -1245,6 +1251,12 @@ body.escuro .convite{
 
     background-color:#1F233A;
 
+}
+
+body.escuro .st{
+    
+    background-color: #5865F2;
+    
 }
 
 body.escuro footer{
