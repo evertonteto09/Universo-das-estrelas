@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Universo das Estrelas Status</title>
+
+    <link rel="stylesheet" href="../assets/css/status.css">
+
+</head>
+
+<body>
+
+    <header>
+
+        <button class="menu-toggle"><img src="../assets/images/menu.png" alt="Menu" class="icone-menu"></button>
+
+        <nav id="menu">
+
+            <a href="#inicio" class="menu-item"><span class="menu-icon">🏠</span>Inicio</a>
+
+            <a href="#square" class="menu-item"><span class="menu-icon">☁</span>Square</a>
+            
+            <a href="#bots" class="menu-item"><span class="menu-icon">✨</span>Bots</a>
+
+        </nav>
+
+        <aside class="menu-lateral">
+
+            <h2 class="title-menu">🌌 Universo das Estrelas</h2>
+
+            <div class="cabecalho-menu">
+
+                <button class="voltar-menu">← Fechar</button>
+
+                <h2>🌌 Universo das Estrelas</h2>
+
+            </div>
+
+            <div class="conteudo-menu">
+
+                <h2 class="nav-title">🧭 Navegação</h2>
+
+                <div class="nav-menu">
+
+                </div>
+
+                <h2>🎨 Temas</h2>
+
+                <div class="opcoes-tema">
+
+                    <button id="tema-galaxia" data-tema="galaxia">🌌 Galáxia</button>
+
+                    <button id="tema-claro" data-tema="claro">☀ Claro</button>
+
+                    <button id="tema-escuro" data-tema="escuro">🌙 Escuro</button>
+
+                </div>
+
+                <hr>
+
+                <p>😎Versão 1.0 Beta</p>
+
+            </div>
+
+        </aside>
+
+    </header>
+
+    <main>
+
+    <section id="inicio" class="hero">
+
+        <img src="../assets/images/logo.png" alt="logo">
+        
+        <h1>🌌 Universo das Estrelas</h1>
+
+        <p>Status dos Serviços</p>
+
+    </section>
+
+    <section id="square" class="square">
+
+        <h2 class="statlie">APIs da Square Cloud</h2>
+        
+        <div class="status-grid">
+            
+            <div class="statuscard">
+                
+                <div class="status-card-header">
+                    
+                    <div class="status-card-title">
+                        ☁️ Square Cloud
+                    </div>
+                    
+                    <div class="status-online">
+                        
+                        <p><span id="square-status">Carregando...</span></p>
+                    
+                    </div>
+                
+                </div>
+                
+                <div class="status-metric">
+                    
+                    <div class="status-metric-top">
+                        
+                        <span class="status-metric-name">🧩 CPU</span>
+                        
+                        <span class="status-metric-value"><strong id="square-cpu">--</strong></span>
+                    
+                    </div>
+                    
+                    <div class="status-progress">
+                        
+                        <div class="status-progress-bar cpu-progress">
+
+                        </div>
+                    
+                    </div>
+                
+                </div>
+                
+                <div class="status-metric">
+                    
+                    <div class="status-metric-top">
+                        
+                        <span class="status-metric-name">💾 RAM</span>
+                        
+                        <span class="status-metric-value"><strong id="square-ram">--</strong></span>
+                    
+                    </div>
+                    
+                    <div class="status-progress">
+                        
+                        <div class="status-progress-bar ram-progress">
+
+                        </div>
+                    
+                    </div>
+                
+                </div>
+                
+                <div class="api-latency">
+                    
+                    <span class="api-latency-label">📡 API</span>
+                    <span class="api-latency-value">
+                    <span id="square-ping">--</span></span>
+                
+                </div>
+                
+                <div class="status-updated">Atualizado agora</div>
+            
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="bots" class="bots">
+        
+        <h2 class="statlie">As estrelas</h2>
+
+        <div class="conteudo">
+
+            <div class="card felipe">
+
+            <img class="icon" src="../assets/images/felipe.png" alt="Felipe Patrão">
+            
+            <h3>🤵 Felipe Patrão</h3>
+            
+            <p>⛔ No momento não é possível ver os status do felipe. <img class="emoji" src="../assets/images/gatim1.png"></p>
+        
+        </div>
+        
+        <div class="card felipa">
+
+            <img class="icon" src="../assets/images/felipa.png" alt="Felipe Patrão">
+            
+            <h3>💰 Felipa Patroa</h3>
+            
+            <p>⛔ No momento não é possível ver os status da felipa. <img class="emoji" src="../assets/images/gatim2.png"></p>
+        
+        </div>
+
+        <div class="card sophia">
+
+            <img class="icon" src="../assets/images/sophia.png" alt="Felipe Patrão">
+            
+            <h3>🎥 Sophia Streaming</h3>
+            
+            <p>⛔ No momento não é possível ver os status da sophia. <img class="emoji" src="../assets/images/gatim3.png"></p>
+        
+        </div>
+
+        </div>
+
+        <div class="info">
+
+            <div class="alerta">
+
+                <img class="ronaldo" src="../assets/images/ronaldim.png">
+
+                <h2>Alerta!</h2>
+
+                <p>Não é possível acompanhar o status dos bots, isso acontece por conta do serviço que utilizamos para programar os bots não disponibiliza uma API para consulta de dados. para saber o status dos bots basta usar o comando ping respectivo de cada um.</p>
+            
+            </div>
+
+        </div>
+
+    </section>
+
+    </main>
+
+    <footer>
+
+        <div class="footer-info">
+
+            <h2>🌌 Universo das Estrelas</h2>
+
+            <p>Toda estrela começou pequena antes de iluminar o céu.</p>
+
+        </div>
+
+        <div class="footer-links">
+
+            <h3>⭐ Nossas Estrelas</h3>
+
+            <a href="https://discord.com/oauth2/authorize?client_id=1423399203761029250" target="_blank">🤵 Felipe Patrão</a>
+
+            <a href="https://discord.com/oauth2/authorize?client_id=991479517908586527" target="_blank">💰 Felipa Patroa</a>
+
+            <a href="https://discord.com/oauth2/authorize?client_id=1025024817717579796" target="_blank">🎥 Sophia Streaming</a>
+
+        </div>
+
+        <div class="footer-utilitarios">
+
+            <h3>🔗 Links úteis</h3>
+
+            <a href="https://github.com/evertonteto09" target="_blank"><img src="../assets/images/git-white.png" class="foticon"> GitHub</a>
+
+            <a href="https://discord.gg/dSfjMRYRd7" target="_blank"><img src="../assets/images/discord-white.png" class="foticon"> Discord</a>
+
+            <p>📩 Email: everton.suporte.projetos@gmail.com</p>
+
+        </div>
+
+        <div class="footer-direitos">
+
+            <p>© 2026 Universo das Estrelas</p>
+
+        </div>
+
+    </footer>
+
+    <script src="../assets/js/status.js"></script>
+
+    <script src="../assets/js/tema-pages.js"></script>
+    
+    <script src="../assets/js/menu.js"></script>
+
+</body>
