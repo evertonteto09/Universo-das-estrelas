@@ -559,8 +559,6 @@ button:hover{
     margin: 70px auto 100px;
     padding: 0 20px;
     max-width: 1200px;
-
-    opacity:0;
 }
 
 .statusuniverso h2 {
@@ -576,7 +574,7 @@ button:hover{
     gap: 25px;
 }
 
-.status-card {
+.statuscard {
     position: relative;
     overflow: hidden;
 
@@ -603,9 +601,11 @@ button:hover{
         transform 0.3s ease,
         border-color 0.3s ease,
         box-shadow 0.3s ease;
+
+         opacity:0;
 }
 
-.status-card::before {
+.statuscard::before {
     content: "";
 
     position: absolute;
@@ -623,7 +623,7 @@ button:hover{
     pointer-events: none;
 }
 
-.status-card:hover {
+.statuscard:hover {
     transform: translateY(-5px);
 
     border-color: rgba(99, 112, 255, 0.35);
