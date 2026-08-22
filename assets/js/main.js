@@ -6,7 +6,7 @@ const noticias = document.querySelectorAll(".noticia");
 
 const cartas = document.querySelectorAll(".carta");
 
-const status = document.querySelectorAll(".statusuniverso");
+const status = document.querySelectorAll(".statuscard");
 
 const observer = new IntersectionObserver(function (entries) {
 
@@ -47,9 +47,9 @@ for (const carta of cartas) {
 
 }
 
-for (const statusuniverso of status) {
+for (const statuscard of status) {
 
-    observer.observe(statusuniverso);
+    observer.observe(statuscard);
 
 }
 
