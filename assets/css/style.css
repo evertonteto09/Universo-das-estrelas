@@ -1634,6 +1634,23 @@ body.escuro footer a:hover{
         height:90px;
     }
 
+    .statusuniverso {
+        margin: 45px auto 80px;
+        padding: 0 16px;
+    }
+
+    .statusuniverso h2 {
+        font-size: 2rem;
+        margin-bottom: 30px;
+        text-align: left;
+    }
+
+    .statuscard {
+        max-width: 70%;
+        padding: 28px 22px;
+        border-radius: 22px;
+    }
+
     button{
 
     padding:18px 35px;
