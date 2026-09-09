@@ -8,6 +8,53 @@
 
 }
 
+.header-teste {
+
+    position: fixed;
+
+    top: 0;
+    left: 0;
+
+    width: 100%;
+
+    box-sizing: border-box;
+
+    min-height: 54px;
+
+    padding: 12px 40px;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    background: #1a1a2e;
+
+    z-index: 1000;
+
+}
+
+
+.header-teste .voltar {
+
+    color: white;
+
+    text-decoration: none;
+
+    font-size: 18px;
+
+    transition: .3s;
+
+}
+
+
+.header-teste .voltar:hover {
+
+    color: #707BFF;
+
+}
+
 .titulo{
 
     margin-top:50px;
@@ -516,18 +563,26 @@
 
 @media (max-width: 768px) {
 
-    header{
+    .header-teste {
 
-        padding:6px 16px;
+        min-height: 54px;
 
-        height:30px;
+        height: 54px;
 
-        min-height:unset;
+        box-sizing: border-box;
 
-        justify-content:flex-start;
+        padding: 8px 16px;
+
+        justify-content: center;
 
     }
 
+
+    .header-teste .voltar {
+
+        font-size: 16px;
+
+    }
 
     .cabecalho h1 {
 
@@ -565,6 +620,19 @@
         TEMA CLARO
 ====================================*/
 
+body.claro .header-teste {
+
+    background: white;
+
+}
+
+
+body.claro .header-teste .voltar {
+
+    color: #222;
+
+}
+
 body.claro .cabecalho p {
 
     color: #696969;
@@ -600,6 +668,19 @@ Body.claro .dica {
 /*====================================
         TEMA ESCURO
 ====================================*/
+
+body.escuro .header-teste {
+
+    background: #0A0D18;
+
+}
+
+
+body.escuro .header-teste .voltar {
+
+    color: white;
+
+}
 
 body.escuro .bola-card {
 
