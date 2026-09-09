@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Minérios - Felipa Patroa</title>
+
+    <link rel="stylesheet" href="../assets/css/felipa.css">
+
+    <link rel="stylesheet" href="../assets/css/minerar.css">
+
+</head>
+
+
+<body>
+
+    <header class="header-teste">
+
+    <a href="felipa.html" class="voltar">
+        ← Voltar
+    </a>
+
+    </header>
+
+
+    <main class="pagina-minerios">
+
+
+        <section class="teste-container">
+
+
+            <div class="cabecalho">
+
+                <h1 class="titulo">⛏️ Sistema de Minérios</h1>
+
+                <p>
+                    Minere recursos, acumule materiais e venda seus minérios!
+                </p>
+
+            </div>
+
+
+
+            <!-- SALDO -->
+
+            <div class="saldo-minerios">
+
+                💰 Saldo:
+
+                <strong id="saldo">
+
+                    1.000
+
+                </strong>
+
+                moedas
+
+            </div>
+
+
+
+            <!-- ÁREA DA MINA -->
+
+            <div class="mina-card">
+
+
+                <div class="mina-icon">
+
+                    ⛏️
+
+                </div>
+
+
+                <h2>
+
+                    Sua mina
+
+                </h2>
+
+
+                <p>
+
+                    Clique no botão para procurar minérios.
+
+                </p>
+
+
+                <button id="botaoMinerar">
+
+                    ⛏️ Minerar
+
+                </button>
+
+
+            </div>
+
+
+
+            <!-- INVENTÁRIO -->
+
+            <section class="inventario">
+
+
+                <h2>🎒 Seus minérios</h2>
+
+
+                <div class="minerios-grid">
+
+
+                    <div class="minerio">
+
+                        <span class="minerio-icone">🪨</span>
+
+                        <span class="minerio-nome">Pedra</span>
+
+                        <strong id="pedra">0</strong>
+
+                    </div>
+
+
+
+                    <div class="minerio">
+
+                        <span class="minerio-icone">🪙</span>
+
+                        <span class="minerio-nome">Cobre</span>
+
+                        <strong id="cobre">0</strong>
+
+                    </div>
+
+
+
+                    <div class="minerio">
+
+                        <span class="minerio-icone">🟡</span>
+
+                        <span class="minerio-nome">Ouro</span>
+
+                        <strong id="ouro">0</strong>
+
+                    </div>
+
+
+
+                    <div class="minerio">
+
+                        <span class="minerio-icone">💎</span>
+
+                        <span class="minerio-nome">Diamante</span>
+
+                        <strong id="diamante">0</strong>
+
+                    </div>
+
+
+
+                    <div class="minerio">
+
+                        <span class="minerio-icone">❤️</span>
+
+                        <span class="minerio-nome">Rubi</span>
+
+                        <strong id="rubi">0</strong>
+
+                    </div>
+
+
+                </div>
+
+
+            </section>
+
+
+
+            <!-- VENDA -->
+
+            <section class="venda-card">
+
+
+                <h2>💰 Venda de minérios</h2>
+
+
+                <p>
+
+                    Venda todos os minérios que você encontrou.
+
+                </p>
+
+
+                <div class="precos">
+
+
+                    <span>🪨 Pedra — 5 moedas</span>
+
+                    <span>🪙 Cobre — 15 moedas</span>
+
+                    <span>🟡 Ouro — 50 moedas</span>
+
+                    <span>💎 Diamante — 150 moedas</span>
+
+                    <span>❤️ Rubi — 300 moedas</span>
+
+
+                </div>
+
+
+                <button id="botaoVender">
+
+                    💰 Vender minérios
+
+                </button>
+
+
+            </section>
+
+
+
+            <!-- RESULTADO -->
+
+            <section class="resultado-area">
+
+
+                <div class="discord-mensagem">
+
+
+                    <div class="bot-avatar">
+
+                        <img
+                            src="../assets/images/felipa.png"
+                            class="icon"
+                            alt="Felipa Patroa"
+                        >
+
+                    </div>
+
+
+
+                    <div class="mensagem-conteudo">
+
+
+                        <div class="bot-nome">
+
+                            Felipa Patroa
+
+                            <span class="app">
+
+                                APP
+
+                            </span>
+
+                        </div>
+
+
+
+                        <div id="resultado">
+
+                            ⛏️ Comece minerando para descobrir
+                            quais recursos você encontrará!
+
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+
+
+            </section>
+
+
+        </section>
+
+
+    </main>
+
+
+    <script src="../assets/js/tema-pages.js"></script>
+
+    <script src="../assets/js/minerar.js"></script>
+
+</body>
+
+</html>
