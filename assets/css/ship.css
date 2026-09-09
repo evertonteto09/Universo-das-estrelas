@@ -135,3 +135,13 @@ body.escuro .ship-card {
     background:#1F233A;
 
 }
+
+@media (max-width: 768px) {
+
+    .ship-card{
+
+    max-width: 330px;
+
+    }
+
+}
