@@ -1,0 +1,602 @@
+* {
+
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+
+}
+
+.titulo{
+
+    margin-top:50px;
+}
+
+
+.pagina-bola {
+
+    min-height: 100vh;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    padding: 50px 20px;
+
+}
+
+
+.teste-container {
+
+    width: 100%;
+
+    max-width: 850px;
+
+}
+
+
+.cabecalho {
+
+    text-align: center;
+
+    margin-bottom: 35px;
+
+}
+
+
+.cabecalho h1 {
+
+    font-size: 2.5rem;
+
+    margin-bottom: 15px;
+
+}
+
+
+.cabecalho p {
+
+    color: #d8cdea;
+
+    font-size: 1.1rem;
+
+    line-height: 1.6;
+
+}
+
+
+
+/* =========================
+   BOLA
+========================= */
+
+.bola-card {
+
+    background:
+
+        rgba(20, 12, 35, 0.88);
+
+    border-radius: 20px;
+
+    padding: 35px;
+
+    text-align: center;
+
+    border: 1px solid
+        rgba(180, 120, 255, 0.2);
+
+    box-shadow:
+
+        0 15px 40px
+        rgba(0, 0, 0, 0.35);
+
+}
+
+
+.bola {
+
+    width: 150px;
+
+    height: 150px;
+
+    margin: 0 auto 25px;
+
+    border-radius: 50%;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    position: relative;
+
+    background:
+
+        radial-gradient(
+            circle at 35% 30%,
+            #c59cff,
+            #6736a5 35%,
+            #24103d 75%,
+            #10091b
+        );
+
+    box-shadow:
+
+        0 0 25px
+        rgba(175, 105, 255, 0.65),
+
+        inset 0 0 30px
+        rgba(0, 0, 0, 0.6);
+
+    transition:
+
+        transform 0.4s,
+
+        box-shadow 0.4s;
+
+}
+
+
+.bola span {
+
+    font-size: 70px;
+
+    filter:
+
+        drop-shadow(
+            0 0 12px
+            rgba(255, 255, 255, 0.5)
+        );
+
+}
+
+
+.bola-card h2 {
+
+    margin-bottom: 10px;
+
+}
+
+
+.bola-card p {
+
+    color: #c9bfd9;
+
+}
+
+
+
+/* =========================
+   ÁREA DE TESTE
+========================= */
+
+.area-teste {
+
+    margin-top: 25px;
+
+    background:
+
+        rgba(25, 18, 42, 0.92);
+
+    padding: 30px;
+
+    border-radius: 15px;
+
+    border: 1px solid
+        rgba(255, 255, 255, 0.08);
+
+}
+
+
+.area-teste label {
+
+    display: block;
+
+    font-size: 1.2rem;
+
+    margin-bottom: 12px;
+
+}
+
+
+#pergunta {
+
+    width: 100%;
+
+    padding: 15px;
+
+    border-radius: 10px;
+
+    border: 1px solid #5a4678;
+
+    background: #110d19;
+
+    color: white;
+
+    font-size: 1rem;
+
+    outline: none;
+
+}
+
+
+#pergunta:focus {
+
+    border-color: #a86cff;
+
+    box-shadow:
+
+        0 0 12px
+        rgba(168, 108, 255, 0.35);
+
+}
+
+
+#pergunta::placeholder {
+
+    color: #777080;
+
+}
+
+
+.dica {
+
+    margin-top: 10px;
+
+    color: #aaa1b7;
+
+    font-size: 0.9rem;
+
+    line-height: 1.5;
+
+}
+
+
+#botaoConsultar {
+
+    width: 100%;
+
+    margin-top: 20px;
+
+    padding: 15px;
+
+    border: none;
+
+    border-radius: 10px;
+
+    background:
+
+        linear-gradient(
+            135deg,
+            #7045c5,
+            #a45ce8
+        );
+
+    color: white;
+
+    font-size: 1.1rem;
+
+    cursor: pointer;
+
+    transition:
+
+        transform 0.2s,
+
+        box-shadow 0.2s;
+
+}
+
+
+#botaoConsultar:hover {
+
+    transform: translateY(-2px);
+
+    box-shadow:
+
+        0 8px 25px
+        rgba(145, 75, 220, 0.45);
+
+}
+
+
+#botaoConsultar:active {
+
+    transform: scale(0.98);
+
+}
+
+
+#botaoConsultar:disabled {
+
+    opacity: 0.6;
+
+    cursor: not-allowed;
+
+}
+
+
+
+/* =========================
+   RESULTADO
+========================= */
+
+.resultado-area {
+
+    margin-top: 25px;
+
+}
+
+
+.discord-mensagem {
+
+    display: flex;
+
+    gap: 15px;
+
+    padding: 20px;
+
+    border-radius: 12px;
+
+    background: #2b2d31;
+
+    border-left: 4px solid #9b59d0;
+
+    animation:
+
+        aparecer 0.4s ease;
+
+}
+
+
+.bot-avatar {
+
+    width: 55px;
+
+    height: 55px;
+
+    min-width: 55px;
+
+    border-radius: 50%;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    background: #5c3a91;
+
+    font-size: 1.6rem;
+
+}
+
+.icon{
+
+    width:58px;
+    height:58px;
+
+}
+
+
+.mensagem-conteudo {
+
+    width: 100%;
+
+}
+
+
+.bot-nome {
+
+    color: white;
+
+    font-weight: bold;
+
+    margin-bottom: 8px;
+
+}
+
+
+.app {
+
+    background: #5865f2;
+
+    font-size: 0.7rem;
+
+    padding: 3px 6px;
+
+    border-radius: 4px;
+
+    margin-left: 5px;
+
+}
+
+
+#resultado {
+
+    color: #dbdee1;
+
+    line-height: 1.6;
+
+    font-size: 1.05rem;
+
+}
+
+
+.pergunta {
+
+    color: #b9a5d3;
+
+    font-style: italic;
+
+}
+
+
+.resposta {
+
+    display: inline-block;
+
+    margin-top: 8px;
+
+    color: #d8a8ff;
+
+    font-size: 1.25rem;
+
+    font-weight: bold;
+
+}
+
+
+
+/* =========================
+   ANIMAÇÃO DA BOLA
+========================= */
+
+.consultando {
+
+    animation:
+
+        pulsar 0.8s infinite alternate;
+
+}
+
+
+@keyframes pulsar {
+
+    from {
+
+        transform: scale(1);
+
+        box-shadow:
+
+            0 0 25px
+            rgba(175, 105, 255, 0.5);
+
+    }
+
+    to {
+
+        transform: scale(1.08);
+
+        box-shadow:
+
+            0 0 60px
+            rgba(190, 110, 255, 0.95);
+
+    }
+
+}
+
+
+@keyframes aparecer {
+
+    from {
+
+        opacity: 0;
+
+        transform: translateY(10px);
+
+    }
+
+    to {
+
+        opacity: 1;
+
+        transform: translateY(0);
+
+    }
+
+}
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 768px) {
+
+
+    .cabecalho h1 {
+
+        font-size: 1.9rem;
+
+    }
+
+
+    .bola {
+
+        width: 120px;
+
+        height: 120px;
+
+    }
+
+
+    .bola span {
+
+        font-size: 55px;
+
+    }
+
+
+    .area-teste {
+
+        padding: 20px;
+
+    }
+
+
+}
+
+/*====================================
+        TEMA CLARO
+====================================*/
+
+body.claro .cabecalho p {
+
+    color: #696969;
+
+}
+
+body.claro .bola-card {
+
+    color:#222;
+
+    background:#F5F5F5;
+
+}
+
+body.claro .bola-card p {
+
+    color: #696969;
+
+}
+
+body.claro .area-teste {
+
+    background: #F5F5F5;
+
+}
+
+Body.claro .dica {
+
+    color: #696969;
+
+}
+
+/*====================================
+        TEMA ESCURO
+====================================*/
+
+body.escuro .bola-card {
+
+    background:#1F233A;
+
+}
+
+body.escuro .area-teste {
+
+    background: #1F233A;
+
+}

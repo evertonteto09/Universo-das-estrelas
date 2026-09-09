@@ -350,6 +350,8 @@ body{
 
 .carta{
 
+    margin-bottom:50px;
+
     background-color:#2a2a45;
 
     max-width:800px;
@@ -464,6 +466,46 @@ body{
 .botao-convite:hover{
 
     background:#707BFF;
+
+    transform:scale(1.05);
+
+}
+
+.stbutt{
+
+    margin-bottom:50px;
+
+    display:flex;
+
+    justify-content:center;
+
+    gap: 15px;
+    
+}
+
+.botão-teste{
+
+    display:inline-block;
+
+    width:max-content;
+
+    background:#3CB371;
+
+    color:white;
+
+    text-decoration:none;
+
+    padding:20px 40px;
+
+    border-radius:10px;
+
+    transition:.3s;
+
+}
+
+.botão-teste:hover{
+
+    background:#8FBC8B;
 
     transform:scale(1.05);
 

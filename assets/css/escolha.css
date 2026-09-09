@@ -1,0 +1,526 @@
+* {
+
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+
+}
+
+.titulo{
+
+    margin-top:50px;
+}
+
+.pagina-escolha {
+
+    min-height: 100vh;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    padding: 40px 20px;
+
+}
+
+
+.teste-container {
+
+    width: 100%;
+
+    max-width: 850px;
+
+}
+
+
+.cabecalho {
+
+    text-align: center;
+
+    margin-bottom: 35px;
+
+}
+
+
+.cabecalho h1 {
+
+    font-size: 2.4rem;
+
+    margin-bottom: 15px;
+
+}
+
+
+.cabecalho p {
+
+    font-size: 1.1rem;
+
+    color: #d5d5e6;
+
+    line-height: 1.6;
+
+}
+
+
+
+/* =========================
+   CARD DO COMANDO
+========================= */
+
+.comando-card {
+
+    background: rgba(20, 20, 35, 0.85);
+
+    border-radius: 15px;
+
+    padding: 25px;
+
+    margin-bottom: 25px;
+
+    border: 1px solid rgba(255, 255, 255, 0.08);
+
+    box-shadow:
+
+        0 10px 30px rgba(0, 0, 0, 0.3);
+
+}
+
+
+.comando-info h2 {
+
+    margin-bottom: 10px;
+
+}
+
+
+.comando-info p {
+
+    color: #cfcfe2;
+
+    line-height: 1.6;
+
+    margin-bottom: 20px;
+
+}
+
+
+.exemplo-comando {
+
+    background: #151522;
+
+    border-radius: 10px;
+
+    padding: 15px;
+
+    font-family: monospace;
+
+    font-size: 1rem;
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    gap: 8px;
+
+}
+
+
+.exemplo-comando span:first-child {
+
+    color: #78c7ff;
+
+}
+
+
+.exemplo {
+
+    color: #b8f58a;
+
+}
+
+
+
+/* =========================
+   ÁREA DE TESTE
+========================= */
+
+.area-teste {
+
+    background: rgba(25, 25, 40, 0.9);
+
+    padding: 30px;
+
+    border-radius: 15px;
+
+    border: 1px solid rgba(255, 255, 255, 0.08);
+
+}
+
+
+.area-teste label {
+
+    display: block;
+
+    font-size: 1.2rem;
+
+    margin-bottom: 12px;
+
+}
+
+
+textarea {
+
+    width: 100%;
+
+    min-height: 120px;
+
+    resize: vertical;
+
+    border-radius: 10px;
+
+    border: 1px solid #4d4d6e;
+
+    background: #12121d;
+
+    color: white;
+
+    padding: 15px;
+
+    font-size: 1rem;
+
+    outline: none;
+
+}
+
+
+textarea:focus {
+
+    border-color: #7c5cff;
+
+    box-shadow:
+
+        0 0 12px rgba(124, 92, 255, 0.4);
+
+}
+
+
+textarea::placeholder {
+
+    color: #77778d;
+
+}
+
+
+.dica {
+
+    margin-top: 10px;
+
+    color: #bdbdd0;
+
+    font-size: 0.9rem;
+
+}
+
+
+#botaoEscolher {
+
+    width: 100%;
+
+    margin-top: 20px;
+
+    padding: 15px;
+
+    border: none;
+
+    border-radius: 10px;
+
+    font-size: 1.1rem;
+
+    cursor: pointer;
+
+    color: white;
+
+    background:
+
+        linear-gradient(
+            135deg,
+            #5b8cff,
+            #8b5cff
+        );
+
+    transition:
+
+        transform 0.2s,
+
+        box-shadow 0.2s;
+
+}
+
+
+#botaoEscolher:hover {
+
+    transform: translateY(-2px);
+
+    box-shadow:
+
+        0 8px 20px rgba(100, 80, 255, 0.4);
+
+}
+
+
+#botaoEscolher:active {
+
+    transform: scale(0.98);
+
+}
+
+
+#botaoEscolher:disabled {
+
+    opacity: 0.6;
+
+    cursor: not-allowed;
+
+}
+
+
+
+/* =========================
+   RESULTADO
+========================= */
+
+.resultado-area {
+
+    margin-top: 25px;
+
+}
+
+
+.discord-mensagem {
+
+    background: #2b2d31;
+
+    padding: 20px;
+
+    border-radius: 12px;
+
+    display: flex;
+
+    gap: 15px;
+
+    border-left: 4px solid #5865f2;
+
+    animation:
+
+        aparecer 0.4s ease;
+
+}
+
+
+.bot-avatar {
+
+    width: 55px;
+
+    height: 55px;
+
+    background: #5865f2;
+
+    border-radius: 50%;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    font-size: 1.7rem;
+
+    flex-shrink: 0;
+
+}
+
+.icon{
+
+    width:58px;
+    height:58px;
+
+}
+
+.mensagem-conteudo {
+
+    width: 100%;
+
+}
+
+
+.bot-nome {
+
+    font-weight: bold;
+
+    color: #ffffff;
+
+    margin-bottom: 8px;
+
+}
+
+
+.app {
+
+    background: #5865f2;
+
+    font-size: 0.7rem;
+
+    padding: 3px 6px;
+
+    border-radius: 4px;
+
+    margin-left: 5px;
+
+}
+
+
+#resultado {
+
+    color: #dbdee1;
+
+    font-size: 1.05rem;
+
+    line-height: 1.6;
+
+}
+
+
+
+/* =========================
+   RESULTADO FINAL
+========================= */
+
+.resultado-final {
+
+    font-size: 1.3rem;
+
+    color: #f0c95c;
+
+    font-weight: bold;
+
+}
+
+
+.erro {
+
+    color: #ff7777;
+
+}
+
+/* =========================
+   ANIMAÇÃO
+========================= */
+
+@keyframes aparecer {
+
+    from {
+
+        opacity: 0;
+
+        transform: translateY(10px);
+
+    }
+
+
+    to {
+
+        opacity: 1;
+
+        transform: translateY(0);
+
+    }
+
+}
+
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 768px) {
+
+
+    .cabecalho h1 {
+
+        font-size: 1.8rem;
+
+    }
+
+
+    .teste-container {
+
+        width: 100%;
+
+    }
+
+
+    .area-teste {
+
+        padding: 20px;
+
+    }
+
+
+}
+
+/*====================================
+        TEMA CLARO
+====================================*/
+
+body.claro .cabecalho p {
+
+    color: #696969;
+
+}
+
+body.claro .comando-card {
+
+    color:#222;
+
+    background:#F5F5F5;
+
+}
+
+body.claro .comando-info p {
+
+    color: #696969;
+
+}
+
+body.claro .area-teste {
+
+    background: #F5F5F5;
+
+}
+
+Body.claro .dica {
+
+    color: #696969;
+
+}
+
+/*====================================
+        TEMA ESCURO
+====================================*/
+
+body.escuro .comando-card {
+
+    background:#1F233A;
+
+}
+
+body.escuro .area-teste {
+
+    background: #1F233A;
+
+}

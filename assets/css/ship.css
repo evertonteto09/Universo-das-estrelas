@@ -1,0 +1,137 @@
+.teste-comando {
+
+    min-height: 80vh;
+
+    padding: 80px 20px;
+
+    text-align: center;
+
+}
+
+
+.ship-card {
+
+    max-width: 900px;
+
+    margin: 40px auto;
+
+    padding: 40px;
+
+    border-radius: 20px;
+
+    background: rgba(30, 30, 50, 0.8);
+
+}
+
+
+.pessoas-ship {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    gap: 30px;
+
+}
+
+
+.pessoa {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 12px;
+
+}
+
+
+.pessoa input {
+
+    padding: 12px;
+
+    border-radius: 10px;
+
+    border: none;
+
+}
+
+
+.coracao {
+
+    font-size: 50px;
+
+}
+
+
+#calcularShip {
+
+    margin-top: 30px;
+
+    padding: 15px 35px;
+
+    border: none;
+
+    border-radius: 12px;
+
+    cursor: pointer;
+
+}
+
+
+.resultado-ship {
+
+    margin-top: 40px;
+
+}
+
+
+.imagem-ship {
+
+    width: 100%;
+
+    max-width: 700px;
+
+    margin-top: 20px;
+
+    border-radius: 15px;
+
+}
+
+/*====================================
+        TEMA CLARO
+====================================*/
+
+body.claro .ship-card {
+
+    color:#222;
+
+    background:#F5F5F5;
+
+}
+
+body.claro .label{
+
+    background:#4682B4;
+
+    color:white;
+
+}
+
+body.claro .pessoa input::placeholder {
+    
+    color:white;
+
+}
+
+/*====================================
+        TEMA ESCURO
+====================================*/
+
+body.escuro .ship-card {
+
+    background:#1F233A;
+
+}
