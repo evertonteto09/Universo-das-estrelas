@@ -516,6 +516,18 @@
 
 @media (max-width: 768px) {
 
+    header{
+
+        padding:6px 16px;
+
+        height:30px;
+
+        min-height:unset;
+
+        justify-content:flex-start;
+
+    }
+
 
     .cabecalho h1 {
 
