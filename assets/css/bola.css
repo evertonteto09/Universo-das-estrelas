@@ -633,6 +633,12 @@ body.claro .header-teste .voltar {
 
 }
 
+body.claro .header-teste .voltar:hover {
+
+    color: #707BFF;
+
+}
+
 body.claro .cabecalho p {
 
     color: #696969;
@@ -679,6 +685,12 @@ body.escuro .header-teste {
 body.escuro .header-teste .voltar {
 
     color: white;
+
+}
+
+body.escuro .header-teste .voltar:hover {
+
+    color: #707BFF;
 
 }
 
