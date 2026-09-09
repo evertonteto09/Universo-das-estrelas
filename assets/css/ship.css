@@ -140,17 +140,17 @@ body.escuro .ship-card {
 
     .ship-card{
 
-    max-width: 330px;
+    max-width: 420px;
 
     }
 
     .pessoa input {
 
-    width:58px;
+    width:120px;
         
-    height:58px;
+    height:32px;
 
-    padding:14px;
+    padding:2px;
 
     }
 
