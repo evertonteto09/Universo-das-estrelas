@@ -1,0 +1,482 @@
+/* ====================================
+        PÁGINA DE MINÉRIOS
+==================================== */
+
+.header-teste {
+
+    position: fixed;
+
+    top: 0;
+    left: 0;
+
+    width: 100%;
+
+    box-sizing: border-box;
+
+    min-height: 54px;
+
+    padding: 12px 40px;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    background: #1a1a2e;
+
+    z-index: 1000;
+
+}
+
+
+.header-teste .voltar {
+
+    color: white;
+
+    text-decoration: none;
+
+    font-size: 18px;
+
+    transition: .3s;
+
+}
+
+
+.header-teste .voltar:hover {
+
+    color: #707BFF;
+
+}
+
+.pagina-minerios {
+
+    min-height: 80vh;
+
+    padding: 80px 20px;
+
+    text-align: center;
+
+}
+
+
+.saldo-minerios {
+
+    max-width: 500px;
+
+    margin: 30px auto;
+
+    padding: 18px;
+
+    border-radius: 15px;
+
+    background: rgba(30, 30, 50, 0.8);
+
+    font-size: 20px;
+
+}
+
+
+.saldo-minerios strong {
+
+    font-size: 28px;
+
+}
+
+
+
+/* ====================================
+        MINA
+==================================== */
+
+.mina-card {
+
+    max-width: 650px;
+
+    margin: 30px auto;
+
+    padding: 40px;
+
+    border-radius: 20px;
+
+    background: rgba(30, 30, 50, 0.8);
+
+}
+
+
+.mina-icon {
+
+    font-size: 70px;
+
+    margin-bottom: 10px;
+
+}
+
+
+.mina-card h2 {
+
+    margin: 10px 0;
+
+}
+
+
+.mina-card p {
+
+    opacity: 0.8;
+
+}
+
+
+.mina-card button,
+.venda-card button {
+
+    margin-top: 20px;
+
+    padding: 15px 35px;
+
+    border: none;
+
+    border-radius: 12px;
+
+    cursor: pointer;
+
+    font-size: 17px;
+
+    transition: transform 0.2s, opacity 0.2s;
+
+}
+
+
+.mina-card button:hover,
+.venda-card button:hover {
+
+    transform: scale(1.05);
+
+}
+
+
+
+/* ====================================
+        INVENTÁRIO
+==================================== */
+
+.inventario {
+
+    max-width: 750px;
+
+    margin: 40px auto;
+
+}
+
+
+.inventario h2 {
+
+    margin-bottom: 25px;
+
+}
+
+
+.minerios-grid {
+
+    display: grid;
+
+    grid-template-columns: repeat(5, 1fr);
+
+    gap: 15px;
+
+}
+
+
+.minerio {
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    gap: 7px;
+
+    padding: 20px 10px;
+
+    border-radius: 15px;
+
+    background: rgba(30, 30, 50, 0.8);
+
+}
+
+
+.minerio-icone {
+
+    font-size: 35px;
+
+}
+
+
+.minerio-nome {
+
+    font-size: 14px;
+
+}
+
+
+.minerio strong {
+
+    font-size: 20px;
+
+}
+
+
+
+/* ====================================
+        VENDA
+==================================== */
+
+.venda-card {
+
+    max-width: 650px;
+
+    margin: 40px auto;
+
+    padding: 35px;
+
+    border-radius: 20px;
+
+    background: rgba(30, 30, 50, 0.8);
+
+}
+
+
+.precos {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 8px;
+
+    margin-top: 20px;
+
+}
+
+
+.precos span {
+
+    padding: 10px;
+
+    border-radius: 8px;
+
+    background: rgba(255, 255, 255, 0.05);
+
+}
+
+
+.venda-card button {
+
+    margin-top: 25px;
+
+}
+
+
+
+/* ====================================
+        RESULTADO
+==================================== */
+
+.resultado-area {
+
+    max-width: 700px;
+
+    margin: 40px auto;
+
+}
+
+
+.discord-mensagem {
+
+    display: flex;
+
+    align-items: flex-start;
+
+    text-align: left;
+
+    gap: 15px;
+
+    padding: 20px;
+
+    border-radius: 10px;
+
+    background: #1e1f22;
+
+}
+
+
+.bot-avatar .icon {
+
+    width: 48px;
+
+    height: 48px;
+
+    border-radius: 50%;
+
+    object-fit: cover;
+
+}
+
+
+.mensagem-conteudo {
+
+    flex: 1;
+
+}
+
+
+.bot-nome {
+
+    font-weight: bold;
+
+    margin-bottom: 8px;
+
+}
+
+
+.app {
+
+    background: #5865f2;
+
+    color: white;
+
+    font-size: 11px;
+
+    padding: 3px 5px;
+
+    border-radius: 4px;
+
+    margin-left: 5px;
+
+}
+
+
+#resultado {
+
+    line-height: 1.6;
+
+}
+
+
+
+/* ====================================
+        TEMA CLARO
+==================================== */
+
+body.claro .header-teste .voltar {
+
+    color:#222;
+
+}
+
+body.claro .header-teste .voltar:hover {
+
+    color: #707BFF;
+
+}
+
+body.claro .saldo-minerios,
+body.claro .mina-card,
+body.claro .minerio,
+body.claro .venda-card {
+
+    color: #222;
+
+    background: #F5F5F5;
+
+}
+
+
+body.claro .precos span {
+
+    background: #E8E8E8;
+
+}
+
+
+body.claro .discord-mensagem {
+
+    color:white;
+
+}
+
+
+
+/* ====================================
+        TEMA ESCURO
+==================================== */
+
+body.escuro .saldo-minerios,
+body.escuro .mina-card,
+body.escuro .minerio,
+body.escuro .venda-card {
+
+    background: #1F233A;
+
+}
+
+
+body.escuro .precos span {
+
+    background: #30364F;
+
+}
+
+
+
+/* ====================================
+        MOBILE
+==================================== */
+
+@media (max-width: 700px) {
+
+
+    .pagina-minerios {
+
+        padding: 50px 15px;
+
+    }
+
+
+    .mina-card,
+    .venda-card {
+
+        padding: 25px 20px;
+
+    }
+
+
+    .minerios-grid {
+
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+
+    .minerio:last-child {
+
+        grid-column: span 2;
+
+    }
+
+
+    .saldo-minerios {
+
+        font-size: 17px;
+
+    }
+
+
+    .discord-mensagem {
+
+        padding: 15px;
+
+    }
+
+}

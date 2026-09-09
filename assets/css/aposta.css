@@ -1,0 +1,406 @@
+/* ====================================
+        PÁGINA DE APOSTA
+==================================== */
+
+.header-teste {
+
+    position: fixed;
+
+    top: 0;
+    left: 0;
+
+    width: 100%;
+
+    box-sizing: border-box;
+
+    min-height: 54px;
+
+    padding: 12px 40px;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    background: #1a1a2e;
+
+    z-index: 1000;
+
+}
+
+
+.header-teste .voltar {
+
+    color: white;
+
+    text-decoration: none;
+
+    font-size: 18px;
+
+    transition: .3s;
+
+}
+
+
+.header-teste .voltar:hover {
+
+    color: #707BFF;
+
+}
+
+.pagina-aposta {
+
+    min-height: 80vh;
+
+    padding: 80px 20px;
+
+    text-align: center;
+
+}
+
+
+.aposta-card {
+
+    max-width: 700px;
+
+    margin: 40px auto;
+
+    padding: 40px;
+
+    border-radius: 20px;
+
+    background: rgba(30, 30, 50, 0.8);
+
+}
+
+
+.saldo {
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    gap: 5px;
+
+    margin-bottom: 35px;
+
+}
+
+
+.saldo span {
+
+    font-size: 20px;
+
+}
+
+
+.saldo strong {
+
+    font-size: 42px;
+
+}
+
+
+.saldo small {
+
+    font-size: 15px;
+
+    opacity: 0.7;
+
+}
+
+
+.aposta-conteudo {
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+}
+
+
+.aposta-conteudo label {
+
+    font-size: 20px;
+
+    margin-bottom: 12px;
+
+}
+
+
+.aposta-conteudo input {
+
+    width: 280px;
+
+    padding: 14px;
+
+    border: none;
+
+    border-radius: 10px;
+
+    font-size: 16px;
+
+    box-sizing: border-box;
+
+}
+
+
+.aposta-conteudo input:focus {
+
+    outline: 2px solid #5865f2;
+
+}
+
+
+.limite {
+
+    margin-top: 10px;
+
+    font-size: 14px;
+
+    opacity: 0.7;
+
+}
+
+
+#botaoApostar {
+
+    margin-top: 20px;
+
+    padding: 15px 40px;
+
+    border: none;
+
+    border-radius: 12px;
+
+    cursor: pointer;
+
+    font-size: 18px;
+
+    transition: transform 0.2s, opacity 0.2s;
+
+}
+
+
+#botaoApostar:hover {
+
+    transform: scale(1.05);
+
+}
+
+
+#botaoApostar:disabled {
+
+    opacity: 0.5;
+
+    cursor: not-allowed;
+
+    transform: none;
+
+}
+
+
+.resultado-area {
+
+    max-width: 700px;
+
+    margin: 40px auto;
+
+}
+
+
+.discord-mensagem {
+
+    display: flex;
+
+    align-items: flex-start;
+
+    text-align: left;
+
+    gap: 15px;
+
+    padding: 20px;
+
+    border-radius: 10px;
+
+    background: #1e1f22;
+
+}
+
+
+.bot-avatar .icon {
+
+    width: 48px;
+
+    height: 48px;
+
+    border-radius: 50%;
+
+    object-fit: cover;
+
+}
+
+
+.mensagem-conteudo {
+
+    flex: 1;
+
+}
+
+
+.bot-nome {
+
+    font-weight: bold;
+
+    margin-bottom: 8px;
+
+}
+
+
+.app {
+
+    background: #5865f2;
+
+    color: white;
+
+    font-size: 11px;
+
+    padding: 3px 5px;
+
+    border-radius: 4px;
+
+    margin-left: 5px;
+
+}
+
+
+#resultado {
+
+    line-height: 1.6;
+
+}
+
+
+/* ====================================
+        TEMA CLARO
+==================================== */
+
+body.claro .header-teste .voltar {
+
+    color:#222;
+
+}
+
+body.claro .header-teste .voltar:hover {
+
+    color: #707BFF;
+
+}
+
+body.claro .aposta-card {
+
+    color: #222;
+
+    background: #F5F5F5;
+
+}
+
+
+body.claro .aposta-conteudo input {
+
+    background: #4682B4;
+
+    color: white;
+
+}
+
+
+body.claro .aposta-conteudo input::placeholder {
+
+    color: white;
+
+}
+
+
+body.claro .discord-mensagem {
+
+    color:white;
+
+}
+
+
+/* ====================================
+        TEMA ESCURO
+==================================== */
+
+body.escuro .aposta-card {
+
+    background: #1F233A;
+
+}
+
+
+body.escuro .aposta-conteudo input {
+
+    background: #30364F;
+
+    color: white;
+
+}
+
+
+body.escuro .aposta-conteudo input::placeholder {
+
+    color: #BFC3D4;
+
+}
+
+
+/* ====================================
+        MOBILE
+==================================== */
+
+@media (max-width: 600px) {
+
+    .pagina-aposta {
+
+        padding: 50px 15px;
+
+    }
+
+
+    .aposta-card {
+
+        padding: 25px 20px;
+
+    }
+
+
+    .saldo strong {
+
+        font-size: 34px;
+
+    }
+
+
+    .aposta-conteudo input {
+
+        width: 100%;
+
+        max-width: 280px;
+
+    }
+
+
+    .discord-mensagem {
+
+        padding: 15px;
+
+    }
+
+}

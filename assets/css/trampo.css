@@ -1,0 +1,326 @@
+/* ====================================
+        PÁGINA DE TRABALHO
+==================================== */
+
+.header-teste {
+
+    position: fixed;
+
+    top: 0;
+    left: 0;
+
+    width: 100%;
+
+    box-sizing: border-box;
+
+    min-height: 54px;
+
+    padding: 12px 40px;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    background: #1a1a2e;
+
+    z-index: 1000;
+
+}
+
+
+.header-teste .voltar {
+
+    color: white;
+
+    text-decoration: none;
+
+    font-size: 18px;
+
+    transition: .3s;
+
+}
+
+
+.header-teste .voltar:hover {
+
+    color: #707BFF;
+
+}
+
+.pagina-trabalho {
+
+    min-height: 80vh;
+
+    padding: 80px 20px;
+
+    text-align: center;
+
+}
+
+
+.trabalho-card {
+
+    max-width: 700px;
+
+    margin: 40px auto;
+
+    padding: 45px;
+
+    border-radius: 20px;
+
+    background: rgba(30, 30, 50, 0.8);
+
+}
+
+
+.trabalho-icon {
+
+    font-size: 75px;
+
+    margin-bottom: 20px;
+
+}
+
+
+.trabalho-card h2 {
+
+    margin-bottom: 15px;
+
+}
+
+
+.trabalho-card p {
+
+    line-height: 1.6;
+
+    margin-bottom: 30px;
+
+}
+
+
+#botaoTrabalhar {
+
+    padding: 15px 40px;
+
+    border: none;
+
+    border-radius: 12px;
+
+    font-size: 18px;
+
+    cursor: pointer;
+
+    transition: 0.2s;
+
+}
+
+
+#botaoTrabalhar:hover {
+
+    transform: scale(1.05);
+
+}
+
+
+#botaoTrabalhar:active {
+
+    transform: scale(0.97);
+
+}
+
+
+/* ====================================
+        RESULTADO
+==================================== */
+
+.resultado-area {
+
+    max-width: 700px;
+
+    margin: 35px auto 0;
+
+}
+
+
+.discord-mensagem {
+
+    display: flex;
+
+    align-items: flex-start;
+
+    gap: 15px;
+
+    padding: 20px;
+
+    border-radius: 12px;
+
+    text-align: left;
+
+    background: #1e1f22;
+
+}
+
+
+.bot-avatar img {
+
+    width: 48px;
+
+    height: 48px;
+
+    border-radius: 50%;
+
+}
+
+
+.mensagem-conteudo {
+
+    flex: 1;
+
+}
+
+
+.bot-nome {
+
+    font-weight: bold;
+
+    margin-bottom: 8px;
+
+}
+
+
+.app {
+
+    display: inline-block;
+
+    margin-left: 6px;
+
+    padding: 2px 6px;
+
+    border-radius: 5px;
+
+    font-size: 11px;
+
+    background: #5865f2;
+
+    color: white;
+
+}
+
+
+#resultado {
+
+    line-height: 1.6;
+
+}
+
+
+/* ====================================
+        SALDO
+==================================== */
+
+.saldo-area {
+
+    max-width: 700px;
+
+    margin: 20px auto;
+
+    padding: 15px;
+
+    border-radius: 12px;
+
+    background: rgba(30, 30, 50, 0.6);
+
+}
+
+
+.saldo-area strong {
+
+    font-size: 20px;
+
+    margin-left: 5px;
+
+}
+
+
+/* ====================================
+        ANIMAÇÃO
+==================================== */
+
+.trabalhando {
+
+    animation: trabalhando 0.8s infinite alternate;
+
+}
+
+
+@keyframes trabalhando {
+
+    from {
+        transform: translateY(0);
+    }
+
+    to {
+        transform: translateY(-5px);
+    }
+
+}
+
+
+/* ====================================
+        TEMA CLARO
+==================================== */
+
+body.claro .header-teste .voltar {
+
+    color:#222;
+
+}
+
+body.claro .header-teste .voltar:hover {
+
+    color: #707BFF;
+
+}
+
+body.claro .trabalho-card {
+
+    color: #222;
+
+    background: #F5F5F5;
+
+}
+
+
+body.claro .saldo-area {
+
+    color: #222;
+
+    background: #E8E8E8;
+
+}
+
+body.claro .discord-mensagem {
+
+    color:white;
+
+}
+
+
+/* ====================================
+        TEMA ESCURO
+==================================== */
+
+body.escuro .trabalho-card {
+
+    background: #1F233A;
+
+}
+
+
+body.escuro .saldo-area {
+
+    background: #1F233A;
+
+}
