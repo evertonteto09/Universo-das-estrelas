@@ -136,21 +136,107 @@ body.escuro .ship-card {
 
 }
 
-@media (max-width: 768px) {
+@media (max-width: 600px) {
 
-    .ship-card{
+    .teste-comando {
 
-    max-width: 420px;
+        min-height: auto;
+
+        padding: 50px 15px;
 
     }
 
+
+    .ship-card {
+
+        width: 100%;
+
+        box-sizing: border-box;
+
+        margin: 25px auto;
+
+        padding: 25px 15px;
+
+        border-radius: 16px;
+
+    }
+
+
+    .pessoas-ship {
+
+        flex-direction: column;
+
+        gap: 20px;
+
+    }
+
+
+    .pessoa {
+
+        width: 100%;
+
+        align-items: center;
+
+        gap: 10px;
+
+    }
+
+
     .pessoa input {
 
-    width:120px;
-        
-    height:32px;
+        width: 100%;
 
-    padding:2px;
+        max-width: 280px;
+
+        box-sizing: border-box;
+
+        padding: 12px;
+
+        font-size: 16px;
+
+    }
+
+
+    .coracao {
+
+        font-size: 45px;
+
+        margin: 5px 0;
+
+    }
+
+
+    #calcularShip {
+
+        width: 100%;
+
+        max-width: 280px;
+
+        margin-top: 25px;
+
+        padding: 14px 20px;
+
+        font-size: 16px;
+
+    }
+
+
+    .resultado-ship {
+
+        margin-top: 30px;
+
+    }
+
+
+    .imagem-ship {
+
+        width: 100%;
+
+        max-width: 100%;
+
+        margin-top: 15px;
+
+        border-radius: 12px;
 
     }
 
