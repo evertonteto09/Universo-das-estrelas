@@ -1,0 +1,420 @@
+.header-teste {
+
+    position: fixed;
+
+    top: 0;
+    left: 0;
+
+    width: 100%;
+
+    box-sizing: border-box;
+
+    min-height: 54px;
+
+    padding: 12px 40px;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    background: #1a1a2e;
+
+    z-index: 1000;
+
+}
+
+
+.header-teste .voltar {
+
+    color: white;
+
+    text-decoration: none;
+
+    font-size: 18px;
+
+    transition: .3s;
+
+}
+
+
+.header-teste .voltar:hover {
+
+    color: #707BFF;
+
+}
+
+.pagina-twitch {
+
+    min-height: 80vh;
+
+    padding: 80px 20px;
+
+    text-align: center;
+
+}
+
+
+.twitch-card {
+
+    max-width: 700px;
+
+    margin: 40px auto;
+
+    padding: 40px;
+
+    border-radius: 20px;
+
+    background: rgba(30, 30, 50, 0.85);
+
+}
+
+
+.icone-twitch {
+
+    font-size: 60px;
+
+    margin-bottom: 10px;
+
+}
+
+
+.twitch-card h2 {
+
+    margin-bottom: 10px;
+
+}
+
+
+.twitch-card p {
+
+    margin-bottom: 30px;
+
+}
+
+
+.campo {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 10px;
+
+    text-align: left;
+
+    max-width: 450px;
+
+    margin: auto;
+
+}
+
+
+.campo label {
+
+    font-weight: bold;
+
+}
+
+
+.campo select {
+
+    padding: 14px;
+
+    border: none;
+
+    border-radius: 10px;
+
+    font-size: 16px;
+
+    cursor: pointer;
+
+}
+
+
+#botaoGravar {
+
+    margin-top: 30px;
+
+    padding: 15px 35px;
+
+    border: none;
+
+    border-radius: 12px;
+
+    font-size: 17px;
+
+    cursor: pointer;
+
+    background: #9146FF;
+
+    color: white;
+
+    transition: 0.2s;
+
+}
+
+
+#botaoGravar:hover {
+
+    transform: scale(1.04);
+
+}
+
+
+.resultado-area {
+
+    max-width: 850px;
+
+    margin: 40px auto;
+
+    text-align: left;
+
+}
+
+
+.escondido {
+
+    display: none;
+
+}
+
+
+/* ====================================
+        MENSAGEM DA SOPHIA
+==================================== */
+
+
+.discord-mensagem {
+
+    display: flex;
+
+    gap: 15px;
+
+    padding: 20px;
+
+    border-left: 5px solid #9146FF;
+
+    border-radius: 10px;
+
+    background: #18181b;
+
+}
+
+
+.bot-avatar .icon {
+
+    width: 50px;
+
+    height: 50px;
+
+    border-radius: 50%;
+
+    object-fit: cover;
+
+}
+
+
+.mensagem-conteudo {
+
+    flex: 1;
+
+}
+
+
+.bot-nome {
+
+    font-size: 18px;
+
+    font-weight: bold;
+
+    margin-bottom: 12px;
+
+}
+
+
+.app {
+
+    margin-left: 6px;
+
+    padding: 3px 6px;
+
+    border-radius: 5px;
+
+    font-size: 11px;
+
+    background: #5865F2;
+
+    color: white;
+
+}
+
+
+.resultado-twitch h3 {
+
+    margin-bottom: 15px;
+
+}
+
+
+.estatisticas {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 10px;
+
+    margin-top: 20px;
+
+}
+
+
+.monetizacao {
+
+    margin-top: 10px;
+
+    font-size: 17px;
+
+}
+
+
+.imagem-live {
+
+    margin-top: 20px;
+
+}
+
+
+.live-placeholder {
+
+    min-height: 280px;
+
+    border-radius: 12px;
+
+    background: linear-gradient(
+        135deg,
+        #251044,
+        #9146FF
+    );
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    justify-content: center;
+
+    gap: 15px;
+
+    font-size: 30px;
+
+    font-weight: bold;
+
+}
+
+
+.live-placeholder span {
+
+    font-size: 22px;
+
+}
+
+
+/* ====================================
+        TEMA CLARO
+==================================== */
+
+body.claro .header-teste .voltar {
+
+    color:#222;
+
+}
+
+body.claro .header-teste .voltar:hover {
+
+    color: #707BFF;
+
+}
+
+body.claro .twitch-card {
+
+    color: #222;
+
+    background: #F5F5F5;
+
+}
+
+
+body.claro .discord-mensagem {
+
+    color:white;
+
+}
+
+
+/* ====================================
+        TEMA ESCURO
+==================================== */
+
+
+body.escuro .twitch-card {
+
+    background: #1F233A;
+
+}
+
+
+/* ====================================
+        MOBILE
+==================================== */
+
+
+@media (max-width: 600px) {
+
+    .pagina-twitch {
+
+        padding: 50px 15px;
+
+    }
+
+
+    .twitch-card {
+
+        padding: 25px 20px;
+
+    }
+
+
+    .titulo {
+
+        font-size: 30px;
+
+    }
+
+
+    .discord-mensagem {
+
+        padding: 15px;
+
+    }
+
+
+    .bot-avatar .icon {
+
+        width: 42px;
+
+        height: 42px;
+
+    }
+
+
+    .live-placeholder {
+
+        min-height: 220px;
+
+    }
+
+}

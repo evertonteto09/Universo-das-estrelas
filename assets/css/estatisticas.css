@@ -1,0 +1,387 @@
+.header-teste {
+
+    position: fixed;
+
+    top: 0;
+    left: 0;
+
+    width: 100%;
+
+    box-sizing: border-box;
+
+    min-height: 54px;
+
+    padding: 12px 40px;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    background: #1a1a2e;
+
+    z-index: 1000;
+
+}
+
+
+.header-teste .voltar {
+
+    color: white;
+
+    text-decoration: none;
+
+    font-size: 18px;
+
+    transition: .3s;
+
+}
+
+
+.header-teste .voltar:hover {
+
+    color: #707BFF;
+
+}
+
+.pagina-youtube {
+
+    min-height: 80vh;
+
+    padding: 80px 20px;
+
+    text-align: center;
+
+}
+
+
+.youtube-card {
+
+    max-width: 700px;
+
+    margin: 40px auto;
+
+    padding: 40px;
+
+    border-radius: 20px;
+
+    background: rgba(30, 30, 50, 0.85);
+
+}
+
+
+.icone-youtube {
+
+    font-size: 60px;
+
+    margin-bottom: 10px;
+
+}
+
+
+.youtube-card h2 {
+
+    margin-bottom: 10px;
+
+}
+
+
+.youtube-card > p {
+
+    margin-bottom: 30px;
+
+}
+
+
+.campos {
+
+    max-width: 450px;
+
+    margin: auto;
+
+}
+
+
+.campo {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 8px;
+
+    margin-bottom: 18px;
+
+    text-align: left;
+
+}
+
+
+.campo label {
+
+    font-weight: bold;
+
+}
+
+
+.campo input {
+
+    padding: 14px;
+
+    border: none;
+
+    border-radius: 10px;
+
+    font-size: 16px;
+
+    outline: none;
+
+}
+
+
+.campo input:focus {
+
+    box-shadow: 0 0 0 2px #FF0000;
+
+}
+
+
+#botaoYoutube {
+
+    margin-top: 15px;
+
+    padding: 15px 35px;
+
+    border: none;
+
+    border-radius: 12px;
+
+    background: #FF0000;
+
+    color: white;
+
+    font-size: 17px;
+
+    cursor: pointer;
+
+    transition: 0.2s;
+
+}
+
+
+#botaoYoutube:hover {
+
+    transform: scale(1.04);
+
+}
+
+
+.resultado-area {
+
+    max-width: 850px;
+
+    margin: 40px auto;
+
+    text-align: left;
+
+}
+
+
+.escondido {
+
+    display: none;
+
+}
+
+
+/* ====================================
+        MENSAGEM DISCORD
+==================================== */
+
+
+.discord-mensagem {
+
+    display: flex;
+
+    gap: 15px;
+
+    padding: 20px;
+
+    border-left: 5px solid #FF0000;
+
+    border-radius: 10px;
+
+    background: #18181b;
+
+}
+
+
+.bot-avatar .icon {
+
+    width: 50px;
+
+    height: 50px;
+
+    border-radius: 50%;
+
+    object-fit: cover;
+
+}
+
+
+.mensagem-conteudo {
+
+    flex: 1;
+
+}
+
+
+.bot-nome {
+
+    font-size: 18px;
+
+    font-weight: bold;
+
+    margin-bottom: 12px;
+
+}
+
+
+.app {
+
+    margin-left: 6px;
+
+    padding: 3px 6px;
+
+    border-radius: 5px;
+
+    font-size: 11px;
+
+    background: #5865F2;
+
+    color: white;
+
+}
+
+
+.imagem-resultado {
+
+    margin-top: 20px;
+
+    width: 100%;
+
+}
+
+
+.imagem-resultado img {
+
+    display: block;
+
+    width: 100%;
+
+    max-width: 700px;
+
+    margin: auto;
+
+    border-radius: 12px;
+
+}
+
+
+/* ====================================
+        TEMA CLARO
+==================================== */
+
+body.claro .header-teste .voltar {
+
+    color:#222;
+
+}
+
+body.claro .header-teste .voltar:hover {
+
+    color: #707BFF;
+
+}
+
+
+body.claro .youtube-card {
+
+    color: #222;
+
+    background: #F5F5F5;
+
+}
+
+
+body.claro .discord-mensagem {
+
+    color:white;
+
+}
+
+
+/* ====================================
+        TEMA ESCURO
+==================================== */
+
+
+body.escuro .youtube-card {
+
+    background: #1F233A;
+
+}
+
+
+/* ====================================
+        MOBILE
+==================================== */
+
+
+@media (max-width: 600px) {
+
+    .pagina-youtube {
+
+        padding: 50px 15px;
+
+    }
+
+
+    .youtube-card {
+
+        padding: 25px 20px;
+
+    }
+
+
+    .titulo {
+
+        font-size: 30px;
+
+    }
+
+
+    .discord-mensagem {
+
+        padding: 15px;
+
+    }
+
+
+    .bot-avatar .icon {
+
+        width: 42px;
+
+        height: 42px;
+
+    }
+
+
+    .imagem-resultado img {
+
+        width: 100%;
+
+    }
+
+}
