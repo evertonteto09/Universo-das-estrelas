@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Gravar Twitch - Sophia Streaming</title>
+
+    <link rel="stylesheet" href="../assets/css/sophia.css">
+
+    <link rel="stylesheet" href="../assets/css/twitch.css">
+
+</head>
+
+<body>
+
+    <header class="header-teste">
+
+    <a href="sophia.html" class="voltar">
+        ← Voltar
+    </a>
+
+    </header>
+
+
+    <main class="pagina-twitch">
+
+        <section class="teste-container">
+
+            <div class="cabecalho">
+
+                <h1 class="titulo">
+                    🎥 Gravar Twitch
+                </h1>
+
+                <p>
+                    Escolha o conteúdo da sua live e veja como
+                    seria o resultado!
+                </p>
+
+            </div>
+
+
+            <section class="twitch-card">
+
+                <div class="icone-twitch">
+                    🎥
+                </div>
+
+                <h2>
+                    Iniciar uma Live
+                </h2>
+
+                <p>
+                    Escolha uma categoria para começar sua transmissão.
+                </p>
+
+
+                <div class="campo">
+
+                    <label for="categoria">
+                        🎮 Categoria da Live
+                    </label>
+
+                    <select id="categoria">
+
+                        <option value="">
+                            Escolha uma categoria
+                        </option>
+
+                        <option value="Gameplay">
+                            🎮 Gameplay
+                        </option>
+
+                        <option value="Vlog">
+                            📹 Vlog
+                        </option>
+
+                        <option value="Experimentos">
+                            🧪 Experimentos
+                        </option>
+
+                        <option value="Curiosidades">
+                            🧠 Experimentos e curiosidades
+                        </option>
+
+                    </select>
+
+                </div>
+
+
+                <button id="botaoGravar">
+
+                    🎥 Gravar Live
+
+                </button>
+
+            </section>
+
+
+            <section
+                id="resultadoArea"
+                class="resultado-area escondido"
+            >
+
+                <div class="discord-mensagem">
+
+
+                    <div class="bot-avatar">
+
+                        <img
+                            src="../assets/images/sophia.png"
+                            class="icon"
+                            alt="Sophia Streaming"
+                        >
+
+                    </div>
+
+
+                    <div class="mensagem-conteudo">
+
+
+                        <div class="bot-nome">
+
+                            Sophia Streaming
+
+                            <span class="app">
+                                APP
+                            </span>
+
+                        </div>
+
+
+                        <div class="resultado-twitch">
+
+                            <h3>
+                                🎥 Você gravou uma Live com sucesso!
+                            </h3>
+
+                            <p id="mensagemResultado"></p>
+
+
+                            <div class="estatisticas">
+
+                                <div>
+                                    👁️
+                                    <strong id="views">
+                                        0
+                                    </strong>
+                                    views
+                                </div>
+
+                                <div>
+                                    👥
+                                    <strong id="seguidores">
+                                        0
+                                    </strong>
+                                    seguidores
+                                </div>
+
+                                <div class="monetizacao">
+
+                                    🪙 Sua Monetização
+
+                                    <strong id="monetizacao">
+                                        0
+                                    </strong>
+
+                                </div>
+
+                            </div>
+
+
+                            <div class="imagem-live">
+
+                                <div class="live-placeholder">
+
+                                    🔴 LIVE
+
+                                    <span id="categoriaResultado">
+                                        Gameplay
+                                    </span>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+        </section>
+
+    </main>
+
+
+    <script src="../assets/js/tema-pages.js"></script>
+
+    <script src="../assets/js/twitch.js"></script>
+
+</body>
+
+</html>
